@@ -12,25 +12,26 @@ BDD is more user focused - for this BDD use user stories for every feature to be
 
 
 
-Agile and BDD
-- Agile Planning work in small increments of value like User Stories.
-- BDD does not replace your existing agile process, it enhances it.
-- BDD as a set of plug-in for your existing process that will make your team more able to deliver on the promises of agile:
-- BDD encourages working in rapid iterations, continuously breaking down your user's problems into small pieces that can flow through your development process as quickly as possible.
+## Agile and BDD
+ - Agile Planning work in small increments of value like User Stories.
+ - BDD does not replace your existing agile process, it enhances it.
+ - BDD as a set of plug-in for your existing process that will make your team more able to deliver on the promises of agile:
+ - BDD encourages working in rapid iterations, continuously breaking down your user's problems into small pieces that can flow through your development process as quickly as possible.
 
-Cucumber:
+## Cucumber:
 • It is a testing tool that supports Behavior Driven Development (BDD) framework. It defines application behavior using simple English text, defined by a language called Gherkin.
-Gherkin Language:
+
+## Gherkin Language:
 • It is a Business Readable, Domain Specific Language created especially for behavior descriptions.
 The 'Given-When-And-Then' formula BDD example
 This is the proposed template for writing BDD test cases for a user story, which can be defined as:
 
 Feature: Description of the feature
 Scenario:
-• Given a certain scenario which is prerequisite
-• When an action takes place - Action
-• And some more action
-• Then this should be the outcome - Expected Result
+  • Given a certain scenario which is prerequisite
+  • When an action takes place - Action
+  • And some more action
+  • Then this should be the outcome - Expected Result
 
 BDD Tools
 Cucumber
